@@ -4,7 +4,15 @@
 
 ## 输出示例
 
-![image](https://user-images.githubusercontent.com/18136549/114664779-c9862400-9d2e-11eb-88d7-e7cc05bf3d6c.png)
+```
+------------------------start------------------------
+>>>【 message_dev 】 diff 【 message_uat 】
+message_uat 中 test2 表在 message_dev 中不存在
+表 test1 中字段 msg_id 类型不同步
+message_dev msg 表中【 aaa 】字段在 message_uat 中不存在
+message_uat msg 表中【 test 】字段在 message_dev 中不存在
+------------------------end--------------------------
+```
 
 
 ## 使用说明
@@ -27,9 +35,9 @@ python mysql_field_diff.py [数据库] [环境1] [环境2]
 ```
 
 参数说明：
-- [数据库]可以使用参数：all | bpm | cms | file | fin | hr | logmgr | mdm | message | oauth2 | portal | quartz | task
-- [环境1]可以使用参数：dev | uat | beta
-- [环境2]可以使用参数：dev | uat | beta
+- [数据库]可以使用参数：all | servername | xxx
+- [环境1]可以使用参数：dev | uat | xxx
+- [环境2]可以使用参数：dev | uat | xxx
 
 例如：
 ```shell
