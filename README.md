@@ -2,6 +2,11 @@
 
 > 用途：本脚本用来对比不同环境下，数据库表，字段，类型不一致的情况。
 
+## 输出示例
+
+![image](https://user-images.githubusercontent.com/18136549/114664779-c9862400-9d2e-11eb-88d7-e7cc05bf3d6c.png)
+
+
 ## 使用说明
 
 ### 1.环境准备
