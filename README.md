@@ -34,7 +34,7 @@ python mysql_field_diff.py mdm uat dev
 
 output:
 
-![demo](https://user-images.githubusercontent.com/18136549/126118382-65daf2c5-a54f-4d21-b191-f90070fddcf6.png)
+![demo](https://raw.githubusercontent.com/peiel/oss/master/uPic/demo.png)
 
 
 ## 配置
